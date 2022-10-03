@@ -1,0 +1,162 @@
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(./image/bcimg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: "Gugi", cursive;
+
+  font-size: 24px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0 20px;
+  padding: 40px 0 40px;
+  width: 100%;
+  height: 20%;
+  position: relative;
+}
+
+main {
+  /* position: relative; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+main form {
+  position: -webkit-sticky;
+  box-sizing: border-box;
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border: aliceblue outset 3px;
+  border-radius: 13px;
+
+  width: 230px;
+  max-height: 80%;
+  font-weight: 500;
+  box-shadow: 4px 4px 6px black, 0 0 1em rgb(153, 0, 173);
+  background-color: rgba(47, 38, 90, 0.627);
+}
+
+label {
+  font-size: 16px;
+  font-weight: 400;
+  text-shadow: black 10 0 3em;
+  color: rgb(207, 200, 200);
+}
+
+header div {
+  text-shadow: 4px 4px black, 0 0 1em rgb(153, 0, 173),
+    0 0 0.2em rgb(153, 0, 173);
+  color: rgb(241, 255, 190);
+  font-family: "Press Start 2P", cursive;
+  font-size: 30px;
+}
+label.submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+label img {
+  display: block;
+
+  -webkit-appearance: none;
+  width: 80px;
+  height: 80px;
+  border: 0;
+}
+
+li {
+  color: rgb(247, 162, 255);
+  text-shadow: 4px 4px black, 0 0 1em rgb(153, 0, 173),
+    0 0 0.2em rgb(153, 0, 173);
+}
+
+input.inputbox {
+  font-size: 20px;
+  width: 100px;
+  height: 26px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233, 233, 233);
+}
+
+div.wrongMessage {
+  color: aliceblue;
+}
+a.reinput {
+  text-shadow: 4px 4px black, 0 0 1em rgb(153, 0, 173),
+    0 0 0.2em rgb(153, 0, 173);
+  font-size: 25px;
+  display: block;
+  margin: 30px;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: aliceblue;
+  border: aliceblue outset 3px;
+  border-radius: 13px;
+  background-color: rgba(36, 36, 36, 0.787);
+  font-weight: 700;
+  font-weight: 500;
+  box-shadow: 4px 4px 6px black, 0 0 1em rgb(153, 0, 173);
+  background-color: rgba(47, 38, 90, 0.627);
+}
+div.wrongMessageField img {
+  display: block;
+
+  -webkit-appearance: none;
+  width: 100px;
+  height: 100px;
+}
+
+div.result {
+  text-shadow: 4px 4px black, 0 0 1em rgb(153, 0, 173),
+    0 0 0.2em rgb(153, 0, 173);
+  text-align: center;
+  color: rgb(247, 162, 255);
+
+  font-size: 25px;
+}
+
+img.result {
+  display: block;
+
+  -webkit-appearance: none;
+  width: 100px;
+  height: 100px;
+}
+
+div.manito {
+  font-family: "Black Han Sans", cursive;
+
+  color: rgb(254, 255, 237);
+  text-shadow: 2px 2px black, 0 0 1em rgb(222, 0, 222),
+    0 0 0.2em rgb(204, 253, 90);
+
+  margin: 17px;
+  padding: 15px;
+  background-color: rgb(247, 162, 255);
+  border: 5px double rgba(140, 0, 153, 0.642);
+  border-radius: 3px;
+  box-shadow: 4px 4px 6px black, 0 0 1em rgb(153, 0, 173);
+}

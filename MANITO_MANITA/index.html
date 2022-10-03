@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2022-SNU-MUN-MANITO</title>
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content="2022-SNU-MUN-MANITO" />
+    <meta
+      property="og:description"
+      content="2022 SNUMUN 마니또 매칭"    />
+    <meta property="og:image" content="./images/header.png" />
+
+    <meta property="twitter:card" content="summary" />
+
+    <meta property="twitter:title" content="2022-SNU-MUN-MANIT" />
+    <meta
+      property="twitter:description"
+      content="2022 SNUMUN 마니또 매칭"    
+    />
+    <link rel="icon" href="./image/favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gugi&family=Press+Start+2P&display=swap" rel="stylesheet"><link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+          <div class="banner">
+    </div>
+        <div> SNU_MUN <br/>MANITO -<br/>  MATCHING</div>
+
+      </header>
+      <main>
+        <form method="get" action="./data.php" id="form">
+          <ul>
+            <li>
+              DEPARTMENT
+              <br />
+              <input type="radio" id="story" value="story" name="department" />
+              <label for="story">스토리 극</label>
+              <br/>
+              <input
+                type="radio"
+                id="conference"
+                value="conference"
+                name="department"
+              />
+              
+              <label for="conference">회의 극</label>
+            </li>
+            <br />
+            <li>
+              NAME
+              <br />
+              <input type="text" placeholder="이름 :" name="name" class="inputbox" />
+            </li>
+            <br />
+            <li>
+              TEL
+              <br />
+              <input
+                type="tel"
+                name="phoneNumber"
+                placeholder="no 하이픈 (-)  "
+                maxlength="11"
+                class="inputbox" 
+              />
+            </li>
+            <br />
+            <input type="submit" id="btnSubmit" style="display:none;" />
+<label class="submit" for="btnSubmit"><img src="image/go.png" alt="SUBMIT"></label>
+
+          </ul>
+        </form>
+      </main>
+      <script src="./main.js"></script>
+   
+  </body>
+</html>
